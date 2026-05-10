@@ -1,0 +1,19 @@
+{
+  "name": "vibe-starter",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "bun run --filter '*' dev",
+    "dev:frontend": "cd frontend && bun run dev",
+    "dev:backend": "cd backend && bun run dev",
+    "install:all": "bun install && cd frontend && bun install && cd ../backend && bun install",
+    "typecheck": "cd frontend && bun run typecheck && cd ../backend && bun run typecheck"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  }
+}

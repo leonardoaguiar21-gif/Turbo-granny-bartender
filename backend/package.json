@@ -1,0 +1,19 @@
+{
+  "name": "vibe-starter-backend",
+  "version": "1.0.0",
+  "private": true,
+  "module": "src/index.ts",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "typecheck": "bun tsc --noEmit"
+  },
+  "dependencies": {
+    "lowdb": "^7.0.1",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/bun": "latest"
+  }
+}
