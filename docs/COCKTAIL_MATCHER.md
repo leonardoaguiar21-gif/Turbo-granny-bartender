@@ -27,8 +27,8 @@ Recommended production path:
 
 Railway service settings:
 
-- Build command: `bun install --linker hoisted && bun run --filter=vibe-starter-frontend build`
-- Start command: `bun run --filter=vibe-starter-backend start`
+- Build command: `bun install --linker hoisted && bun run build`
+- Start command: `bun run start`
 
 Backend environment:
 

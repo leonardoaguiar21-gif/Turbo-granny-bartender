@@ -10,6 +10,8 @@
     "dev": "bun run --filter '*' dev",
     "dev:frontend": "cd frontend && bun run dev",
     "dev:backend": "cd backend && bun run dev",
+    "build": "bun run --filter=vibe-starter-frontend build",
+    "start": "bun run --filter=vibe-starter-backend start",
     "install:all": "bun install && cd frontend && bun install && cd ../backend && bun install",
     "typecheck": "cd frontend && bun run typecheck && cd ../backend && bun run typecheck"
   },
